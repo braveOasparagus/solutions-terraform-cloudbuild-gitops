@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "-int-200421-tfstate"
+    bucket = "sungwon-tfstate"
     prefix = "env/prod"
   }
 }
